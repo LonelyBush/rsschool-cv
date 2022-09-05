@@ -50,3 +50,6 @@ function toWeirdCase(string){
 
 # Projects
 * Portfolio
+* Memory-Game
+* Audio-Player
+* Random-Jokes
