@@ -28,13 +28,13 @@ function toWeirdCase(string){
   return string.split(' ').map(function(word){
     return word.split('').map(function(letter, i){
   if( i % 2 == 0) {
-    return letter.toUpperCase
+    return letter.toUpperCase()
     } else {
       return letter.toLowerCase()
     }    
     }).join('');
   }).join(' ');
-
+}
 ```
 
 # Courses
